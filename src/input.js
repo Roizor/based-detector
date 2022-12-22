@@ -4,7 +4,7 @@ function bD(based) {
     return "not based";
 }
 
-function bP(based) {
+function bP() {
     let percent = Math.random().toString().substring(2,5)/ 100 * 10 .toString().split(".")[0];
     return percent+"% based";
 }
